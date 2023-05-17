@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.titles {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  
+  .btn {
+    width: 10%;
+    padding: 5px 10px;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    background-color: rgba(76, 165, 165, 0.735);
+    border: none;
+    border-radius: 30px;
+    color: rgb(31, 30, 30);
+    cursor: pointer;
+  }
+  .input{
+    width: 60%;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  }
+}
